@@ -3,6 +3,7 @@ import { getCollection, render } from "astro:content";
 import { SHOW_BUY_BUTTON } from "astro:env/server";
 import Layout from "../../layouts/Layout.astro";
 import BookScore from "../../components/BookScore.astro";
+import BuyButton from "../../components/BuyButton.astro";
 
 export async function getStaticPaths() {
     const books = await getCollection("books");
@@ -34,7 +35,7 @@ export const prerender = true;
             <BookScore server:defer id={slug}>
                 <span slot="fallback" class="text-xs opacity-50">Cargando puntuacion...</span>
             </BookScore>
-            {SHOW_BUY_BUTTON && <buyButton server:defer buy={buy}></buyButton>}
+            {SHOW_BUY_BUTTON && <BuyButton server:defer buy={buy} />}
             <main class="max-w-3x1">
                 <h1
                     transition:name={`title-${slug}`}
