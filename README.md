@@ -21,14 +21,3 @@ git clone https://github.com/JonesProgrammer/dev-books.git
 cd dev-books
 npm install
 npm run dev
-
-dev-books/
-├── public/             # Static assets
-├── src/                # Source files
-│   ├── components/     # Reusable components
-│   ├── layouts/        # Layout templates
-│   └── pages/          # Page components
-├── astro.config.mjs    # Astro configuration
-├── tailwind.config.mjs # Tailwind CSS configuration
-├── package.json        # Project metadata and scripts
-└── README.md           # Project documentation
