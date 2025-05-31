@@ -1,48 +1,77 @@
-# Astro Starter Kit: Basics
+📚 Dev Books
+Dev Books is a curated collection of essential books for software developers. Whether you're a beginner or an experienced engineer, this repository offers a selection of resources to enhance your programming knowledge and skills.
 
-```sh
-npm create astro@latest -- --template basics
-```
+🌐 Live Demo
+Explore the live version here: dev-books-nine.vercel.app
 
-[![Open in StackBlitz](https://developer.stackblitz.com/img/open_in_stackblitz.svg)](https://stackblitz.com/github/withastro/astro/tree/latest/examples/basics)
-[![Open with CodeSandbox](https://assets.codesandbox.io/github/button-edit-lime.svg)](https://codesandbox.io/p/sandbox/github/withastro/astro/tree/latest/examples/basics)
-[![Open in GitHub Codespaces](https://github.com/codespaces/badge.svg)](https://codespaces.new/withastro/astro?devcontainer_path=.devcontainer/basics/devcontainer.json)
+🛠️ Features
+Curated Book List: Handpicked books covering various programming topics.
 
-> 🧑‍🚀 **Seasoned astronaut?** Delete this file. Have fun!
+Responsive Design: Accessible on devices of all sizes.
 
-![just-the-basics](https://github.com/withastro/astro/assets/2244813/a0a5533c-a856-4198-8470-2d67b1d7c554)
+Modern Stack: Built with Astro and Tailwind CSS for optimal performance.
 
-## 🚀 Project Structure
+🚀 Getting Started
+To run the project locally:
 
-Inside of your Astro project, you'll see the following folders and files:
+Clone the repository:
 
-```text
-/
-├── public/
-│   └── favicon.svg
-├── src/
-│   ├── layouts/
-│   │   └── Layout.astro
-│   └── pages/
-│       └── index.astro
-└── package.json
-```
+bash
+Copiar
+Editar
+git clone https://github.com/JonesProgrammer/dev-books.git
+cd dev-books
+Install dependencies:
 
-To learn more about the folder structure of an Astro project, refer to [our guide on project structure](https://docs.astro.build/en/basics/project-structure/).
+bash
+Copiar
+Editar
+npm install
+Start the development server:
 
-## 🧞 Commands
+bash
+Copiar
+Editar
+npm run dev
+Open your browser and navigate to http://localhost:3000.
 
-All commands are run from the root of the project, from a terminal:
+📁 Project Structure
+php
+Copiar
+Editar
+dev-books/
+├── public/             # Static assets
+├── src/                # Source files
+│   ├── components/     # Reusable components
+│   ├── layouts/        # Layout templates
+│   └── pages/          # Page components
+├── astro.config.mjs    # Astro configuration
+├── tailwind.config.mjs # Tailwind CSS configuration
+├── package.json        # Project metadata and scripts
+└── README.md           # Project documentation
+📚 Book Categories
+Programming Languages
 
-| Command                   | Action                                           |
-| :------------------------ | :----------------------------------------------- |
-| `npm install`             | Installs dependencies                            |
-| `npm run dev`             | Starts local dev server at `localhost:4321`      |
-| `npm run build`           | Build your production site to `./dist/`          |
-| `npm run preview`         | Preview your build locally, before deploying     |
-| `npm run astro ...`       | Run CLI commands like `astro add`, `astro check` |
-| `npm run astro -- --help` | Get help using the Astro CLI                     |
+Software Engineering
 
-## 👀 Want to learn more?
+Web Development
 
-Feel free to check [our documentation](https://docs.astro.build) or jump into our [Discord server](https://astro.build/chat).
+Data Structures & Algorithms
+
+DevOps & Deployment
+
+🤝 Contributing
+Contributions are welcome! If you have a book recommendation or improvement suggestion:
+
+Fork the repository.
+
+Create a new branch: git checkout -b feature/YourFeature
+
+Commit your changes: git commit -m 'Add some feature'
+
+Push to the branch: git push origin feature/YourFeature
+
+Open a pull request.
+
+📄 License
+This project is licensed under the MIT License.
